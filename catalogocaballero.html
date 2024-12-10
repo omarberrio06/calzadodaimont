@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Referencias caballero</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .catalogo-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }
+        .producto h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .producto p {
+            color: #777;
+            font-size: 14px;
+        }
+        .producto .precio {
+            font-size: 18px;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+        .producto .boton {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .producto .boton:hover {
+            background-color: #2980b9;
+        }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Referencias caballero</h1>
+    </header>
+    <div class="catalogo-container">
+      <!-- producto 1 -->
+       <div class="producto">
+        <img src="./foto1.jpg" alt="producto1">
+        <h3>Producto 1</h3>
+        <p>Zapato deportivo caballero color negro</p>
+        <div class="precio">$100.000</div>
+        <a href="#" class="button">Comprar</a>
+     </div>
+    </div>
+    <div class="catalogo-container">
+      <!-- producto 2 -->
+       <div class="producto">
+        <img src="./foto2.jpg" alt="producto1">
+        <h3>Producto 2</h3>
+        <p>Zapato deportivo caballero color negro con miel</p>
+        <div class="precio">$100.000</div>
+        <a href="#" class="button">Comprar</a>
+     </div>
+    </div>
+    <div class="catalogo-container">
+      <!-- producto 3 -->
+       <div class="producto">
+        <img src="./foto3.jpg" alt="producto1">
+        <h3>Producto 3</h3>
+        <p>Zapato deportivo caballero color blanco</p>
+        <div class="precio">$100.000</div>
+        <a href="#" class="button">Comprar</a>
+     </div>
+    </div>
+    <div class="catalogo-container">
+      <!-- producto 4 -->
+       <div class="producto">
+        <img src="./foto4.jpg" alt="producto1">
+        <h3>Producto 4</h3>
+        <p>Zapato deportivo caballero color miel</p>
+        <div class="precio">$100.000</div>
+        <a href="#" class="button">Comprar</a>
+     </div>
+    </div>
+    <div class="catalogo-container">
+      <!-- producto 5 -->
+       <div class="producto">
+        <img src="./foto5.jpg" alt="producto1">
+        <h3>Producto 5</h3>
+        <p>Zapato deportivo caballero color azul oscuro</p>
+        <div class="precio">$100.000</div>
+        <a href="#" class="button">Comprar</a>
+     </div>
+    </div>
+  </body>
+</html>
